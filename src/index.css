@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+  --muted: #6b7280;
+  --danger: #ef4444;
+}
+
+.dark {
+  --bg: #0b1220;
+  --muted: #9ca3af;
+  --danger: #fb7185;
+}
+
+html, body, #root { height: 100%; background: var(--bg); }
+
+* { box-sizing: border-box; }
+
+/* Input helper */
+.input-field-base {
+  @apply w-full border border-gray-200 bg-white text-gray-900 rounded-lg transition-shadow focus:outline-none;
+}
+.input-field-base:focus {
+  @apply ring-0 shadow-input-focus border-brand-500;
+}
+
+/* Polished label */
+.label-sm {
+  @apply block text-sm font-medium text-gray-700 mb-2;
+}
+
+/* helper & error */
+.helper-text { @apply text-sm text-gray-500 mt-1; }
+.error-text { @apply text-sm text-red-600 mt-1; }
+
+/* Table styles */
+.table-root { @apply min-w-full divide-y divide-gray-100 bg-white rounded-lg shadow-card; }
+.table-header { @apply bg-gray-50 sticky top-0; }
+.table-th { @apply px-4 py-3 text-left text-sm font-semibold text-gray-600 select-none; }
+.table-td { @apply px-4 py-3 text-sm text-gray-800; }
+.table-row:hover { @apply bg-gray-50; }
+.table-row-selected { @apply bg-blue-50; }
+
+/* small utilities */
+.badge { @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800; }
