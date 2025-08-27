@@ -5,9 +5,9 @@ import type { Column } from './DataTable';
 interface User { id: number; name: string; email: string; status: 'active'|'inactive' }
 
 const data: User[] = [
-  { id:1, name:'John Doe', email:'john@example.com', status:'active' },
-  { id:2, name:'Jane Smith', email:'jane@example.com', status:'inactive' },
-  { id:3, name:'Ali Khan', email:'ali@example.com', status:'active' }
+  { id:1, name:'swastik', email:'swastik@example.com', status:'active' },
+  { id:2, name:'hritik', email:'hritik@example.com', status:'inactive' },
+  { id:3, name:'pratik', email:'pratik@example.com', status:'active' }
 ];
 
 const columns: Column<User>[] = [

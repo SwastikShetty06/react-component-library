@@ -33,6 +33,7 @@
     "@typescript-eslint/parser": "^6.10.0",
     "@vitejs/plugin-react": "^4.1.0",
     "autoprefixer": "^10.4.16",
+    "chromatic": "^8.0.0",
     "eslint": "^8.53.0",
     "jest-axe": "^8.0.0",
     "postcss": "^8.4.31",
@@ -41,7 +42,6 @@
     "tailwindcss": "^3.3.5",
     "typescript": "^5.2.2",
     "vite": "^4.5.0",
-    "vitest": "^0.34.6",
-    "chromatic": "^8.0.0"
+    "vitest": "^0.34.6"
   }
 }

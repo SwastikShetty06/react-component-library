@@ -6,8 +6,8 @@ import DataTable from './components/DataTable/DataTable';
 import './index.css';
 
 const sample = [
-  { id:1, name:'John Doe', email:'john@example.com', status:'active' },
-  { id:2, name:'Jane Smith', email:'jane@example.com', status:'inactive' }
+  { id:1, name:'swastik', email:'swastik@example.com', status:'active' },
+  { id:2, name:'hritik', email:'hritik@example.com', status:'inactive' }
 ];
 
 export default function App(){
