@@ -1,4 +1,4 @@
-# React Component Library — Polished by Swastik Shetty
+# React Component Library — by Swastik Shetty
 
 Hi — I'm **Swastik Shetty**. This repository contains a small React component library I built as part of a front-end assignment. It includes two main components implemented with **React + TypeScript + TailwindCSS**, documented in **Storybook**, and prepared for deployment to **Chromatic**.
 
